@@ -1,0 +1,32 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="add_text_note"
+        android:shortcutShortLabel="@string/text_text"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_note_add_black_24"
+        >
+        <intent
+            android:action="com.masterplus.notex.views.DisplayTextNoteFragment"
+            android:targetPackage="com.masterplus.notex"
+            android:targetClass="com.masterplus.notex.MainActivity"
+            >
+            <extra android:name="extra_name" android:value="extra_value" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="add_list_note"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/checkList_text"
+        android:icon="@drawable/ic_baseline_check_box_black_24"
+        >
+        <intent
+            android:action="com.masterplus.notex.views.DisplayCheckListNoteFragment"
+            android:targetPackage="com.masterplus.notex"
+            android:targetClass="com.masterplus.notex.MainActivity">
+            <extra android:name="extra_name" android:value="extra_value" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

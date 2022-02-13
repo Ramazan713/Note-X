@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colors">
+        <item>#FFFFFF</item>
+        <item>#DEEADC</item>
+        <item>#E7fEFF</item>
+        <item>#D0FEFE</item>
+        <item>#ADD8E6</item>
+        <item>#EFE7DF</item>
+        <item>#E3E7C4</item>
+        <item>#D1FFBD</item>
+        <item>#A5fBD5</item>
+        <item>#CFE09D</item>
+        <item>#FFE5AD</item>
+        <item>#FFCC99</item>
+        <item>#FFCFDC</item>
+        <item>#F6CEFC</item>
+        <item>#EFC0FE</item>
+        <item>#DFB1B6</item>
+        <item>#F2A0A1</item>
+    </string-array>
+
+    <string-array name="langSettingEntryValues">
+        <item>tr</item>
+        <item>en</item>
+    </string-array>
+    <string-array name="langSettingEntries">
+        <item>@string/lang_turkish</item>
+        <item>@string/lang_english</item>
+    </string-array>
+
+</resources>

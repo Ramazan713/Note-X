@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minHeight="190dp"
+    android:background="@color/default_background_color"
+     >
+
+    <include layout="@layout/view_search_view"
+        android:id="@+id/searchFromBookDia"/>
+
+    <include layout="@layout/item_image_text"
+        android:id="@+id/addBookItemFromSelectBook"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerFromBookDia"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="3dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btCancelFromBookDia"
+            style="@style/button_red"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel_text"
+            />
+
+        <Button
+            android:id="@+id/btApproveFromBookDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="@string/approve_text"
+            style="@style/button_default"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="selected_color">#43A157</color>
+
+    <color name="default_button_color">#6200EE</color>
+    <color name="green_button_color">#079125</color>
+    <color name="red_button_color">#F12E2E</color>
+
+    <color name="actionBar_color">#252222</color>
+    <color name="default_background_color">#1F1B24</color>
+    <color name="card_color_default_1">#28232E</color>
+    <color name="default_color">#171717</color>
+    <color name="backup_card_background_color">#5C3B3B</color>
+    <color name="border_color_darker">#E3DDDD</color>
+    <color name="yellow_more_color">#958049</color>
+    <color name="border_color_lighter">#0E0E0E</color>
+
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:background="@color/default_background_color"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"
+            >
+            <include layout="@layout/view_search_view"
+                android:id="@+id/searchViewFromTag"/>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <include
+                layout="@layout/item_image_text"
+                android:id="@+id/addTagItem" />
+
+
+            <include layout="@layout/view_empty_info"
+                android:id="@+id/noteEmptyInfo"
+                android:visibility="gone"
+                android:layout_marginTop="100dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerTag"
+                android:overScrollMode="never"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_add_24"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="41dp"
+        android:contentDescription="@string/add_text"
+        android:id="@+id/addNoteFromTag"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

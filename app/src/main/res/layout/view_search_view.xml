@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SearchView
+    android:id="@+id/searchVView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="30dp"
+    android:focusable="true"
+    android:gravity="center"
+    android:iconifiedByDefault="false"
+    android:background="@color/default_background_color"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

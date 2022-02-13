@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#9B03DAC5"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/infoUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="textUserNameActivate"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/infoEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="7dp"
+            android:gravity="center"
+            android:text=""
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/infoPremium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:shadowColor="#BAA112"
+                android:text="Premium Active"
+                android:textColor="#8E0505"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                tools:ignore="HardcodedText"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/btSignIn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="0.5"
+                android:backgroundTint="#AD078738"
+                android:minHeight="48dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:text="@string/sign_in_text"
+                android:textAllCaps="false"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/root_note_color_act_menu_item"
+        android:title="@string/color_text"
+        android:icon="@drawable/ic_baseline_color_lens_24"
+        android:orderInCategory="3"
+        />
+    <item android:id="@+id/root_note_tag_act_menu_item"
+        android:title="@string/tag_text"
+        android:orderInCategory="4"
+        android:icon="@drawable/ic_baseline_label_24" />
+    <item android:id="@+id/root_note_selectAll_act_menu_item"
+        android:title="@string/select_all_text"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_baseline_select_all_24" />
+    <item android:id="@+id/root_note_delete_act_menu_item"
+        android:title="@string/delete_text"
+        android:icon="@drawable/ic_baseline_delete_24" />
+    <item android:id="@+id/root_note_add_reminder_act_menu_item"
+        android:title="@string/reminder_text"
+        android:icon="@drawable/ic_baseline_notification_add_24"/>
+    <item android:id="@+id/root_note_pin_act_menu_item"
+        android:title="@string/pin_text"
+        android:icon="@drawable/ic_baseline_push_pin_24"
+        android:orderInCategory="2"/>
+    <item android:id="@+id/root_note_unpin_act_menu_item"
+        android:title="@string/unpin_text"
+        android:icon="@drawable/ic_baseline_push_un_pin_24"
+        android:orderInCategory="2"/>
+
+    <item android:id="@+id/root_note_move_act_menu_item"
+        android:title="@string/move_text"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/root_note_copy_act_menu_item"
+        android:title="@string/copy_text"
+        app:showAsAction="never"/>
+</menu>

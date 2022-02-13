@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color>
+
+    <color name="selected_color">#6FF88C</color>
+
+    <color name="default_button_color">#6200EE</color>
+    <color name="green_button_color">#079125</color>
+    <color name="red_button_color">#F12E2E</color>
+
+    <color name="actionBar_color">#252222</color>
+    <color name="default_background_color">#F3EBEB</color>
+    <color name="card_color_default_1">#F4F1F1</color>
+    <color name="default_color">#FFFFFF</color>
+    <color name="backup_card_background_color">#DCCACA</color>
+    <color name="border_color_darker">#0E0E0E</color>
+    <color name="border_color_lighter">#E3DDDD</color>
+    <color name="yellow_more_color">#EDDDB3</color>
+
+    <color name="test">#CC4747</color>
+
+</resources>

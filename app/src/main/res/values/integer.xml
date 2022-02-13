@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="color_addition_number" type="integer">5</item>
+    <item name="max_backup_size" type="integer">2</item>
+    <item name="max_auto_backup_size" type="integer">1</item>
+
+    <item name="default_backup_files_fetch_interval" type="integer">604800000</item>
+
+    <integer name="font_size_very_small">12</integer>
+    <integer name="font_size_small">14</integer>
+    <integer name="font_size_medium">18</integer>
+    <integer name="font_size_large">22</integer>
+    <integer name="font_size_very_large">27</integer>
+
+</resources>

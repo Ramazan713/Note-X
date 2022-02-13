@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/all_notes_drawer_menu_item"
+        android:title="@string/all_notes_text"
+        android:icon="@drawable/ic_baseline_note_24"
+        />
+
+    <item android:id="@+id/note_book_drawer_menu_item"
+        android:title="@string/notebook_text"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        />
+
+    <item android:id="@+id/premium_drawer_menu_item"
+        android:title="Premium"
+        android:icon="@drawable/premium"/>
+
+    <item android:id="@+id/reminder_drawer_menu_item"
+        android:title="@string/reminder_text"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        />
+
+    <item android:id="@+id/tag_drawer_menu_item"
+        android:title="@string/tag_text"
+        android:icon="@drawable/ic_baseline_label_24"/>
+
+    <item android:id="@+id/archive_drawer_menu_item"
+        android:icon="@drawable/ic_baseline_archive_24"
+        android:title="@string/archive_text"/>
+
+    <item android:id="@+id/trash_drawer_menu_item"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="@string/trash_text"/>
+
+    <item android:id="@+id/settings_drawer_menu_item"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/settings_text"/>
+    <item android:id="@+id/backup_drawer_menu_item"
+        android:icon="@drawable/ic_baseline_cloud_done_24"
+        android:title="@string/backups_text"/>
+    <item android:id="@+id/sign_out_menu_item"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="@string/sign_out_text"/>
+
+</menu>

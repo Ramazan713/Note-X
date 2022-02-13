@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minHeight="190dp"
+    android:background="@color/default_background_color"
+    tools:context=".views.dialogFragments.SelectBackupDiaFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textTimerFromSelectBackup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:layout_marginEnd="13dp"
+            android:textColor="@color/red_button_color"
+            android:text=""/>
+        <ImageView
+            android:id="@+id/refreshFromSelectBackup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="32dp"
+            android:minWidth="32dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:foreground="?selectableItemBackground"
+            android:src="@drawable/ic_baseline_refresh_24" />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBarFromSelectBackup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        />
+    <TextView
+        android:id="@+id/warningFromSelectBackup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text=""
+        android:layout_weight="0.1"
+        android:textSize="17sp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerFromSelectBackup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="3dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btCancelFromSelectBackup"
+            style="@style/button_red"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel_text"
+            />
+
+        <Button
+            android:id="@+id/btApproveFromSelectBackup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="@string/approve_text"
+            style="@style/button_default"
+            />
+    </LinearLayout>
+</LinearLayout>

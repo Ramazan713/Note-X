@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search_notes_menu_item"
+        android:title="@string/search_in_notes_text"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always|collapseActionView"
+        android:iconifiedByDefault="true"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item android:id="@+id/changeView_note_menu_item"
+        android:title="@string/change_view_text"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_view_agenda_24"/>
+    <item android:id="@+id/sortView_dia_note_menu_item"
+        android:title="@string/edit_text"
+        app:showAsAction="never"/>
+</menu>

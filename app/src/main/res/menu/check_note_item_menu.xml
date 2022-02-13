@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/edit_check_note_menu_item"
+        android:title="@string/edit_text"/>
+    <item android:id="@+id/remove_check_note_menu_item"
+        android:title="@string/delete_text"
+        />
+    <item android:id="@+id/copyText_check_note_menu_item"
+        android:title="@string/copy_content_text"/>
+
+</menu>

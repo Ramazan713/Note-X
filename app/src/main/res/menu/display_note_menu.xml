@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/display_note_edit_menu_item"
+        android:title="@string/edit_text"
+        android:icon="@drawable/ic_baseline_edit_24"
+        app:showAsAction="always"
+        android:orderInCategory="1"/>
+    <item android:id="@+id/display_note_color_menu_item"
+        android:title="@string/color_text"
+        android:icon="@drawable/ic_baseline_color_lens_24"
+        app:showAsAction="always"
+        android:orderInCategory="2"/>
+    <item android:id="@+id/display_note_tag_menu_item"
+        android:title="@string/tag_text"
+        android:icon="@drawable/ic_baseline_label_24"
+        app:showAsAction="always"
+        android:orderInCategory="3"/>
+    <item android:id="@+id/display_note_share_menu_item"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="@string/share_text"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/display_note_set_reminder_menu_item"
+        android:title="@string/reminder_text"
+        android:icon="@drawable/ic_baseline_notification_add_24"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/display_note_remove_menu_item"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="@string/delete_text"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/select_font_note_menu_item"
+        android:icon="@drawable/ic_font_image"
+        android:title="@string/font_size_text"
+        app:showAsAction="never"/>
+</menu>

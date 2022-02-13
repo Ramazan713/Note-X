@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/undo_menu_item"
+        android:icon="@drawable/ic_baseline_undo_24"
+        android:title="@string/undo_text"
+        app:showAsAction="always"/>
+    <item android:id="@+id/redo_menu_item"
+        android:icon="@drawable/ic_baseline_redo_24"
+        android:title="@string/redo_text"
+        app:showAsAction="always"/>
+
+</menu>

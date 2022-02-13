@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:minHeight="150dp"
+    android:orientation="vertical"
+    android:overScrollMode="never"
+    android:background="@color/default_background_color"
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleCheckNoteItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/add_item_text"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGrCheckNoteItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="7dp"
+                tools:visibility="visible">
+
+                <RadioButton
+                    android:id="@+id/radioAddFirstCheckNoteItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_to_top_text"
+                    android:textSize="17sp" />
+
+                <RadioButton
+                    android:id="@+id/radioAddLastCheckNoteItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_to_end_text"
+                    android:textSize="17sp" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/editCheckNoteItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="19dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btNextCheckNoteItem"
+            style="@style/button_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/next_text"
+            tools:visibility="visible" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" />
+
+        <Button
+            android:id="@+id/btCancelCheckNoteItem"
+            style="@style/button_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel_text"
+
+            />
+
+        <Button
+            android:id="@+id/btApprovedCheckNoteItem"
+            style="@style/button_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/approve_text" />
+    </LinearLayout>
+</LinearLayout>

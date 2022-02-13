@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:minHeight="300dp"
+    android:background="@color/default_background_color"
+    >
+
+    <include layout="@layout/view_search_view"
+        android:id="@+id/searchTagsFromSTG"/>
+    <include android:id="@+id/addTagFromSelectTags"
+        layout="@layout/item_image_text"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerFromSTG"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="3dp"
+        android:overScrollMode="never"
+
+        android:layout_weight="1" />
+</LinearLayout>

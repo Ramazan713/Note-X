@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/check_list_save_act_menu_item"
+        android:title="@string/saved_text"
+        android:icon="@drawable/ic_baseline_done_24"
+        app:showAsAction="always"/>
+    <item android:id="@+id/check_list_selectAll_act_menu_item"
+        android:title="@string/select_all_text"
+        android:icon="@drawable/ic_baseline_select_all_24"
+        app:showAsAction="always"/>
+    <item android:id="@+id/check_list_delete_act_menu_item"
+        android:title="@string/delete_text"
+        android:icon="@drawable/ic_baseline_delete_24"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/check_list_move_act_menu_item"
+        android:title="@string/move_text"
+        app:showAsAction="never"/>
+    <item android:id="@+id/check_list_copy_act_menu_item"
+        android:title="@string/copy_text"
+        app:showAsAction="never"/>
+    <item android:id="@+id/check_list_checkAll_act_menu_item"
+        android:title="@string/mark_text"
+        app:showAsAction="never"/>
+    <item android:id="@+id/check_list_checkAllNone_act_menu_item"
+        android:title="@string/unmark_text"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item>
+        <selector>
+            <item android:state_selected="true">
+                <shape android:shape="oval">
+                    <corners android:radius="27dp"/>
+                    <stroke android:color="#EC0345" android:width="2dp"/>
+                </shape>
+            </item>
+            <item android:state_selected="false">
+                <shape android:shape="oval">
+                    <corners android:radius="27dp"/>
+                    <stroke android:color="#5E100000" android:width="0.7dp"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+
+    <item>
+        <selector>
+            <item app:state_color_reset="true">
+                <layer-list>
+                    <item android:drawable="@drawable/ic_baseline_format_color_reset_24"/>
+                </layer-list>
+            </item>
+        </selector>
+    </item>
+</layer-list>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory  android:title="@string/general_settings_text">
+        <ListPreference android:title="@string/select_language_text"
+            android:entryValues="@array/langSettingEntryValues"
+            android:entries="@array/langSettingEntries"
+            android:key="setSelectLang"
+            />
+        <Preference android:title="@string/font_size_text"
+            android:key="font_size_text"
+            />
+
+        <Preference android:title="@string/manage_subscription_text"
+            android:key="manageSubscription"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/backups_text">
+        <SwitchPreference android:title="@string/form_auto_cloud_backup_logout_text"
+            android:key="logOutBackupCloudAuto"
+            android:defaultValue="true"/>
+        <SwitchPreference android:title="@string/form_auto_local_backup_logout_text"
+            android:key="logOutBackupLocalAuto"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference android:title="@string/rate_app_text"
+            android:key="rateApp"/>
+        <Preference android:title="@string/share_app_text"
+            android:key="shareApp"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
